@@ -4,3 +4,4 @@ theme: jekyll-theme-architect
 show_downloads: true
 github:
   zip_url: https://api.github.com/repos/rc-skins/harmony/zipball
+  tar_url: https://api.github.com/repos/rc-skins/harmony/tarball

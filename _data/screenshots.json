@@ -1,4 +1,42 @@
 {
+    "harmony": {
+        "name": "Harmony",
+        "author": "Beliy",
+        "desc": "Skin based on Elastic skin.",
+        "devices": ['desktop', 'tablet', 'phone'],
+        "screenshots": [
+            { "file": "mailbox_widescreen.png", "title": "Mailbox view" },
+            { "file": "viewmail.png", "title": "Message viewer with privacy protection" },
+            { "file": "mailbox_cn.png", "title": "Multilingual display" },
+            { "file": "compose.png", "title": "Compose HTML mails with attachments" },
+            { "file": "addressbook.png", "title": "Address book with LDAP integration" },
+            { "file": "editcontact.png", "title": "Extensible contact management form" },
+            { "file": "settings.png", "title": "Versatile user settings" },
+            { "file": "folders.png", "title": "Easy IMAP folder management" },
+            { "file": "identities.png", "title": "Sender identities with signature" },
+            { "file": "enigma.png", "title": "Plugins like Enigma for signing and encrypting emails" },
+            { "file": "managesieve.png", "title": "...or Managesieve filter configuration" }
+        ]
+    },
+    "harry": {
+        "name": "Harry",
+        "author": "Beliy",
+        "desc": "Skin based on Elastic skin.",
+        "devices": ['desktop'],
+        "screenshots": [
+            { "file": "mailbox_widescreen.png", "title": "Three-paned mailbox view" },
+            { "file": "viewmail.png", "title": "Message viewer with privacy protection" },
+            { "file": "mailbox_cn.png", "title": "Multilingual display" },
+            { "file": "compose.png", "title": "Compose HTML mails with attachments" },
+            { "file": "addressbook.png", "title": "Address book with LDAP integration" },
+            { "file": "editcontact.png", "title": "Extensible contact management form" },
+            { "file": "settings.png", "title": "Versatile user settings" },
+            { "file": "folders.png", "title": "Easy IMAP folder management" },
+            { "file": "identities.png", "title": "Sender identities with signature" },
+            { "file": "enigma.png", "title": "Plugins like Enigma for signing and encrypting emails" },
+            { "file": "managesieve.png", "title": "...or Managesieve filter configuration" }
+        ]
+    },
     "elastic": {
         "name": "Elastic",
         "author": "Aleksander Machniak",

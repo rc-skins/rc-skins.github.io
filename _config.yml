@@ -1,8 +1,8 @@
 safe: true
 encoding: UTF-8
-url: https://roundcube.net
-enforce_ssl: roundcube.net
-hostname: "https://roundcube.net"
+url: https://rc-skins.github.io
+enforce_ssl: rc-skins.github.io
+hostname: "https://rc-skins.github.io"
 permalink: news/:year/:month/:day/:title
 exclude: [vendor]
 plugins: [jekyll-paginate]

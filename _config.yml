@@ -1,7 +1,34 @@
-title: rc-skins.github.io 
-description: This is Jekyll based website for rc-skins.github.io
-theme: jekyll-theme-architect
-show_downloads: true
-github:
-  zip_url: https://api.github.com/repos/rc-skins/harmony/zipball
-  tar_url: https://api.github.com/repos/rc-skins/harmony/tarball
+safe: true
+encoding: UTF-8
+url: https://roundcube.net
+enforce_ssl: roundcube.net
+hostname: "https://roundcube.net"
+permalink: news/:year/:month/:day/:title
+exclude: [vendor]
+plugins: [jekyll-paginate]
+paginate: 10
+paginate_path: "/news/page:num/"
+environment: "production"
+num_related_items: 5
+libs: {
+    fonts: {
+        roboto: 'https://fonts.googleapis.com/css?family=Roboto&amp;display=swap',
+        fontawesome: 'https://kit.fontawesome.com/4cdeb7a6e0.js'
+    },
+    jquery: {
+        url: 'https://code.jquery.com/jquery-3.5.1.slim.min.js',
+        sri: 'sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs='
+    },
+    less: 'https://cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js',
+    css: '/styles/styles.min.css?v=2020071800',
+    bootstrap: {
+        css: {
+            url: 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css',
+            sri: 'sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z'
+        },
+        js: {
+            url: 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js',
+            sri: 'sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV'
+        }
+    }
+}
